@@ -24,3 +24,10 @@ Geometry -----> Illumination ------> Viewing Perspective -------> Clipping -----
 5) Screen Space Projection: A projection of 3D object on 2D space
 
 6) Rasterisation: Filters
+
+
+## Shaders in Unity
+
+Shaders in Unity are written in ShaderLab. ShaderLab consists of 3 Parts 
+
+Properties(Unity's part) ----------> SubShader(For Processing) ----------> Fallback(For Inferior GPUs)
