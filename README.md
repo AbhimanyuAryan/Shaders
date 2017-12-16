@@ -1,15 +1,15 @@
-*Graphics Pipeline(Unity)
-________________________
+# Graphics Pipeline(Unity)
+__________________________________________________________________________________________________________________________
 
 
-** Application Phase ------------> Geometry Phase --------------> Rasterisation Phase
+## Application Phase ------------> Geometry Phase --------------> Rasterisation Phase
 
 
 1. Application: This runs on CPU. It includes all the processes that occur in software like moving objects, collisions.
 2. Geometry: How the virtual world is situated with respect to player. It involves calcuation about camerar like rotation, transformation & scaling of the world.
 Rasterisation: Processing the env multiple times. Adding filters 
 
-** A close look at Geometry & Rasterisation process:
+## A close look at Geometry & Rasterisation process:
 
 Geometry -----> Illumination ------> Viewing Perspective -------> Clipping --------> Screen Space Projection -------> Rasterisation ---------> Display
   
