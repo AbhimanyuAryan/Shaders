@@ -31,3 +31,16 @@ Geometry -----> Illumination ------> Viewing Perspective -------> Clipping -----
 Shaders in Unity are written in ShaderLab. ShaderLab consists of 3 Parts 
 
 Properties(Unity's part) ----------> SubShader(For Processing) ----------> Fallback(For Inferior GPUs)
+
+
+```
+struct SurfaceOutput
+{
+    fixed3 Albedo;      // diffuse color
+    fixed3 Normal;      // tangent space normal, if written
+    fixed3 Emission;
+    fixed3 Specular;    // specular power in 0...1 range
+    fixed3 Gloss;       // specular intensity
+    fixed Alpha;        // alpha for transparencies
+}
+```
